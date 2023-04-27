@@ -1,8 +1,8 @@
 import React from 'react';
 import {SafeAreaView} from 'react-native';
-import Styles from './src/Style/styles';
-import Section from './src/Components/Seaction';
-import Header from './src/Components/header';
+import Styles from './src/style/styles';
+import Section from './src/screen/Seaction';
+import Header from './src/container/header';
 
 function App() {
   return (

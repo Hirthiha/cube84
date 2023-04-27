@@ -1,5 +1,12 @@
-import {View, Pressable, Text, TextInput, FlatList} from 'react-native';
-import Styles from '../Style/styles';
+import {
+  View,
+  Pressable,
+  Text,
+  TextInput,
+  FlatList,
+  TouchableOpacity,
+} from 'react-native';
+import Styles from '../style/styles';
 import Icon from 'react-native-vector-icons/Ionicons';
 import Icons from 'react-native-vector-icons/MaterialCommunityIcons';
 
@@ -64,9 +71,9 @@ function Section() {
       </View>
 
       <View style={Styles.but}>
-        <Pressable style={Styles.button}>
+        <TouchableOpacity style={Styles.button}>
           <Text style={Styles.add}>+ ADD EQUIPMENT</Text>
-        </Pressable>
+        </TouchableOpacity>
       </View>
 
       <View style={Styles.filterview}>
@@ -75,19 +82,19 @@ function Section() {
           placeholder="Search for Equipment #/Name/Type/Category"
         />
         <Icon style={Styles.iconSe} name="ios-search-outline" />
-        <Pressable style={Styles.bg}>
+        <TouchableOpacity style={Styles.bg}>
           <Icons name="filter" style={Styles.filter} />
           <Text style={Styles.filtertext}>FILTERS</Text>
-        </Pressable>
+        </TouchableOpacity>
       </View>
 
-      <Pressable style={Styles.yellow}>
+      <TouchableOpacity style={Styles.yellow}>
         <Text style={Styles.yellowtext}>CHECK-IN EQUIPMENT</Text>
-      </Pressable>
+      </TouchableOpacity>
 
-      <Pressable style={Styles.blue}>
+      <TouchableOpacity style={Styles.blue}>
         <Text style={Styles.yellowtext}>CHECK-OUT EQUIPMENT</Text>
-      </Pressable>
+      </TouchableOpacity>
 
       {/* //flatlist */}
       <View style={Styles.flatview}>
@@ -97,9 +104,9 @@ function Section() {
             <View>
               <View style={Styles.flat}>
                 <View style={Styles.flatlist}>
-                  <Pressable style={Styles.id}>
+                  <View style={Styles.id}>
                     <Text style={Styles.idtext}>IDENTIFIER #12345</Text>
-                  </Pressable>
+                  </View>
 
                   <View style={Styles.equip}>
                     <View style={Styles.vehicleV}>
@@ -123,7 +130,7 @@ function Section() {
                   <View style={Styles.flex}>
                     <Text style={Styles.subviewT}>Usage Type </Text>
                     <Text style={Styles.miles}>: {item.usageType}</Text>
-                    <Pressable style={Styles.sync}>
+                    <TouchableOpacity style={Styles.sync}>
                       <Text style={Styles.synctext}>
                         Synced{' '}
                         <Icon
@@ -131,28 +138,28 @@ function Section() {
                           style={Styles.tick}
                         />
                       </Text>
-                    </Pressable>
+                    </TouchableOpacity>
                   </View>
                   <Text style={Styles.subviewL}>
                     Last edited By : {item.edit}
                   </Text>
 
                   <View style={Styles.equip}>
-                    <Pressable style={Styles.buttonPI}>
+                    <TouchableOpacity style={Styles.buttonPI}>
                       <Text style={Styles.buttontext}>View Details</Text>
-                    </Pressable>
+                    </TouchableOpacity>
 
-                    <Pressable style={Styles.recordbtn}>
+                    <TouchableOpacity style={Styles.recordbtn}>
                       <Text style={Styles.buttontext}>Record Upkeep</Text>
-                    </Pressable>
+                    </TouchableOpacity>
 
-                    <Pressable style={Styles.checkin}>
+                    <TouchableOpacity style={Styles.checkin}>
                       <Text style={Styles.buttontext}>Checkin</Text>
-                    </Pressable>
+                    </TouchableOpacity>
 
-                    <Pressable style={Styles.checkout}>
+                    <TouchableOpacity style={Styles.checkout}>
                       <Text style={Styles.buttontext}>Checkout</Text>
-                    </Pressable>
+                    </TouchableOpacity>
                   </View>
                 </View>
               </View>
