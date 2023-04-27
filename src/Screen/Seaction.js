@@ -1,20 +1,20 @@
-import {Image, View, Pressable, Text, TextInput} from 'react-native';
-import Styles from './styles';
+import {
+  Image,
+  View,
+  Pressable,
+  Text,
+  TextInput,
+  SafeAreaView,
+} from 'react-native';
+import Styles from '../styles';
+import {Fontisto} from 'react-native-vector-icons';
 import Icon from 'react-native-vector-icons/Ionicons';
 import Icons from 'react-native-vector-icons/MaterialCommunityIcons';
+import {useEffect} from 'react';
 
-function Header() {
+function Section() {
   return (
-    <View style={Styles.container}>
-      <View style={Styles.view}>
-        <Pressable>
-          <Image style={Styles.img} source={require('./Assets/Vector.png')} />
-        </Pressable>
-        <Image style={Styles.block} source={require('./Assets/Artboard.png')} />
-        <Icon name="language" style={Styles.lang} />
-        <Icons name="bell-badge" style={Styles.bell} />
-      </View>
-
+    <View>
       <View style={Styles.equip}>
         <Icons name="chevron-left" style={Styles.arrow} />
         <Text style={Styles.equitext}>EQUIPMENT</Text>
@@ -50,4 +50,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Section;

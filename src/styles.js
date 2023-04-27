@@ -1,5 +1,5 @@
 import {StyleSheet} from 'react-native';
-import color from './color';
+import color from './Assets/color';
 
 const Styles = StyleSheet.create({
   container: {
@@ -50,10 +50,9 @@ const Styles = StyleSheet.create({
   equitext: {
     fontSize: 30,
     color: color.Black,
-    fontFamily: 'Avenir Next',
-    fontStyle: 'normal',
+    fontFamily: 'serif',
     fontWeight: 'bold',
-    marginLeft: '20%',
+    marginLeft: '17%',
   },
   text: {
     marginLeft: '1%',
@@ -61,6 +60,7 @@ const Styles = StyleSheet.create({
     fontSize: 15,
     color: color.Black,
     fontWeight: 'bold',
+    fontFamily: 'serif',
   },
 
   but: {
@@ -70,7 +70,7 @@ const Styles = StyleSheet.create({
 
   button: {
     width: '63%',
-    height: '22%',
+    padding: '3%',
     backgroundColor: color.inkblue,
     alignItems: 'center',
     justifyContent: 'center',
@@ -81,6 +81,7 @@ const Styles = StyleSheet.create({
     fontSize: 16,
     color: color.White,
     fontWeight: 'bold',
+    fontFamily: 'serif',
   },
   filter: {
     fontSize: 20,
@@ -90,11 +91,13 @@ const Styles = StyleSheet.create({
     fontSize: 14,
     color: color.White,
     marginLeft: '3%',
+    fontWeight: 'bold',
+    fontFamily: 'serif',
   },
   bg: {
     backgroundColor: color.Black,
     width: '25%',
-    height: '65%',
+    height: '68%',
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'center',
@@ -105,11 +108,11 @@ const Styles = StyleSheet.create({
   filterview: {
     display: 'flex',
     flexDirection: 'row',
-    marginTop: '-29%',
+    marginTop: '4%',
   },
   search: {
     width: '65%',
-    height: '65%',
+    height: '70%',
     borderColor: color.Gray,
     borderWidth: 1,
     borderRadius: 7,
@@ -117,6 +120,7 @@ const Styles = StyleSheet.create({
     color: color.Gray,
     fontSize: 9,
     paddingLeft: '3%',
+    fontFamily: 'serif',
   },
   iconSe: {
     position: 'absolute',
@@ -128,25 +132,28 @@ const Styles = StyleSheet.create({
   yellow: {
     backgroundColor: color.golden,
     width: '94%',
-    height: '5%',
+    height: '12%',
     alignItems: 'center',
     justifyContent: 'center',
     marginLeft: '3%',
+    borderRadius: 7,
   },
   yellowtext: {
-    fontSize: 20,
+    fontSize: 22,
     fontWeight: 'bold',
     color: color.Black,
+    fontFamily: 'serif',
   },
 
   blue: {
     backgroundColor: color.Lightblue,
     width: '94%',
-    height: '5%',
+    height: '12%',
     alignItems: 'center',
     justifyContent: 'center',
     marginLeft: '3%',
     marginTop: '3%',
+    borderRadius: 7,
   },
 });
 

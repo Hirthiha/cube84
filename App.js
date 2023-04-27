@@ -1,13 +1,15 @@
 import React from 'react';
-import {View, Text} from 'react-native';
-import Header from './src/header';
+import {View, Text, SafeAreaView} from 'react-native';
+import Header from './src/Screen/header';
 import Styles from './src/styles';
+import Section from './src/Screen/Seaction';
 
 function App() {
   return (
-    <View style={Styles.container}>
+    <SafeAreaView style={Styles.container}>
       <Header></Header>
-    </View>
+      <Section></Section>
+    </SafeAreaView>
   );
 }
 
