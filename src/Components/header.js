@@ -1,8 +1,7 @@
-import {Image, View, Pressable, SafeAreaView} from 'react-native';
-import Styles from '../styles';
+import {Image, Pressable, SafeAreaView} from 'react-native';
+import Styles from '../Style/styles';
 import Icon from 'react-native-vector-icons/Ionicons';
 import Icons from 'react-native-vector-icons/MaterialCommunityIcons';
-import Section from './Seaction';
 
 function Header() {
   return (

@@ -1,8 +1,8 @@
 import React from 'react';
-import {View, Text, SafeAreaView} from 'react-native';
-import Header from './src/Screen/header';
-import Styles from './src/styles';
-import Section from './src/Screen/Seaction';
+import {SafeAreaView} from 'react-native';
+import Styles from './src/Style/styles';
+import Section from './src/Components/Seaction';
+import Header from './src/Components/header';
 
 function App() {
   return (

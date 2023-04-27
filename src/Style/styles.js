@@ -1,5 +1,5 @@
 import {StyleSheet} from 'react-native';
-import color from './Assets/color';
+import color from './color';
 
 const Styles = StyleSheet.create({
   container: {
@@ -10,7 +10,7 @@ const Styles = StyleSheet.create({
   },
   view: {
     backgroundColor: color.inkblue,
-    height: '10%',
+    height: 80,
     alignItems: 'center',
     display: 'flex',
     flexDirection: 'row',
@@ -124,7 +124,7 @@ const Styles = StyleSheet.create({
   },
   iconSe: {
     position: 'absolute',
-    left: '61%',
+    left: '60%',
     top: '15%',
     fontSize: 19,
   },
@@ -132,7 +132,7 @@ const Styles = StyleSheet.create({
   yellow: {
     backgroundColor: color.golden,
     width: '94%',
-    height: '12%',
+    height: 50,
     alignItems: 'center',
     justifyContent: 'center',
     marginLeft: '3%',
@@ -148,12 +148,158 @@ const Styles = StyleSheet.create({
   blue: {
     backgroundColor: color.Lightblue,
     width: '94%',
-    height: '12%',
+    height: 50,
     alignItems: 'center',
     justifyContent: 'center',
     marginLeft: '3%',
     marginTop: '3%',
     borderRadius: 7,
+  },
+
+  id: {
+    width: '35%',
+    height: '35%',
+    backgroundColor: color.golden,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderBottomRightRadius: 15,
+  },
+
+  idtext: {
+    fontFamily: 'serif',
+    fontSize: 12,
+    color: color.Black,
+  },
+
+  flatlist: {
+    backgroundColor: color.peach,
+    height: 100,
+  },
+  flatview: {
+    marginTop: '3%',
+    height: '55%',
+  },
+  flat: {
+    marginLeft: '3%',
+    width: '94%',
+    borderColor: color.grey,
+    borderWidth: 1,
+    borderRadius: 7,
+    marginTop: '2%',
+  },
+  vehicleV: {
+    marginLeft: '6%',
+  },
+  vehicleT: {
+    fontSize: 9,
+    fontFamily: 'serif',
+    color: color.Black,
+  },
+
+  vtext: {
+    fontSize: 15,
+    fontFamily: 'serif',
+    marginTop: '4%',
+    color: color.darkblue,
+    fontWeight: 'bold',
+  },
+  makeV: {
+    marginLeft: '23%',
+  },
+
+  modelV: {
+    marginLeft: '18%',
+  },
+
+  subview: {
+    marginTop: '3%',
+  },
+
+  subviewT: {
+    marginLeft: '5%',
+    fontFamily: 'serif',
+    fontSize: 12,
+    color: color.Black,
+    fontWeight: 'bold',
+  },
+  subviewL: {
+    marginLeft: '5%',
+    fontFamily: 'serif',
+    fontSize: 12,
+    color: color.Black,
+    fontWeight: 'bold',
+  },
+  miles: {
+    marginLeft: '5%',
+    fontFamily: 'serif',
+    fontSize: 12,
+    color: color.Black,
+    fontWeight: 'bold',
+    marginTop: '1%',
+  },
+  flex: {
+    display: 'flex',
+    flexDirection: 'row',
+  },
+
+  sync: {
+    width: '25%',
+    marginLeft: '30%',
+    marginTop: '1%',
+    backgroundColor: color.green,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 7,
+  },
+  synctext: {
+    color: color.White,
+    padding: '3%',
+    fontFamily: 'serif',
+  },
+  tick: {
+    fontSize: 17,
+  },
+
+  buttonPI: {
+    width: '25%',
+    borderTopEndRadius: 11,
+    borderBottomLeftRadius: 11,
+    padding: '2%',
+    justifyContent: 'center',
+    backgroundColor: color.rose,
+  },
+  buttontext: {
+    fontFamily: 'serif',
+    color: color.White,
+    fontSize: 13,
+  },
+
+  recordbtn: {
+    width: '30%',
+    borderTopEndRadius: 11,
+    borderTopLeftRadius: 11,
+    padding: '2%',
+    backgroundColor: color.rose,
+    alignItems: 'center',
+    marginLeft: '2%',
+  },
+  checkin: {
+    width: '19%',
+    borderTopEndRadius: 11,
+    borderTopLeftRadius: 11,
+    padding: '2%',
+    backgroundColor: color.rose,
+    alignItems: 'center',
+    marginLeft: '2%',
+  },
+  checkout: {
+    width: '20%',
+    borderTopLeftRadius: 11,
+    borderBottomRightRadius: 11,
+    padding: '2%',
+    backgroundColor: color.rose,
+    alignItems: 'center',
+    marginLeft: '2%',
   },
 });
 
