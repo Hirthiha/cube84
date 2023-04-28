@@ -1,11 +1,4 @@
-import {
-  View,
-  Pressable,
-  Text,
-  TextInput,
-  FlatList,
-  TouchableOpacity,
-} from 'react-native';
+import {View, Text, TextInput, FlatList, TouchableOpacity} from 'react-native';
 import Styles from '../style/styles';
 import Icon from 'react-native-vector-icons/Ionicons';
 import Icons from 'react-native-vector-icons/MaterialCommunityIcons';
