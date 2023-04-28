@@ -173,7 +173,7 @@ const Styles = StyleSheet.create({
 
   flatlist: {
     backgroundColor: color.peach,
-    height: 100,
+    height: 140,
   },
   flatview: {
     marginTop: '3%',

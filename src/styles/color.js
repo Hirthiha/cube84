@@ -10,6 +10,9 @@ const color = {
   grey: '#CBCBCB',
   green: '#50B748',
   rose: '#ED1651',
+  lightgreen: '#59e3c0',
+  blue: '#500eeb',
+  navyblue: '#0eb7eb',
 };
 
 export default color;

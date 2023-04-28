@@ -1,8 +1,8 @@
 import {Image, SafeAreaView, TouchableOpacity} from 'react-native';
-import Styles from '../style/styles';
+import Styles from '../styles/styles';
 import Icon from 'react-native-vector-icons/Ionicons';
 import Icons from 'react-native-vector-icons/MaterialCommunityIcons';
-import image from '../style/image';
+import image from '../asset/image';
 
 function Header() {
   return (

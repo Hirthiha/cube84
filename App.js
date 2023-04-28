@@ -1,15 +1,14 @@
 import React from 'react';
-import {SafeAreaView} from 'react-native';
-import Styles from './src/style/styles';
-import Section from './src/screen/Seaction';
-import Header from './src/container/header';
+
+import Increment from './src/screen/increment';
 
 function App() {
   return (
-    <SafeAreaView style={Styles.container}>
-      <Header></Header>
-      <Section></Section>
-    </SafeAreaView>
+    // <SafeAreaView style={Styles.container}>
+    //   <Header></Header>
+    //   <Section></Section>
+    // </SafeAreaView>
+    <Increment></Increment>
   );
 }
 

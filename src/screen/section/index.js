@@ -1,60 +1,10 @@
 import {View, Text, TextInput, FlatList, TouchableOpacity} from 'react-native';
-import Styles from '../style/styles';
+import Styles from '../../styles/styles';
 import Icon from 'react-native-vector-icons/Ionicons';
 import Icons from 'react-native-vector-icons/MaterialCommunityIcons';
+import data from './staticData';
 
 function Section() {
-  //data
-  const data = [
-    {
-      id: 1,
-      type: 'Vehicle',
-      make: 'Ford',
-      model: 'F - 350',
-      usageType: 'Miles',
-      edit: 'Daniel',
-    },
-    {
-      id: 2,
-      type: 'Vehicle',
-      make: 'Ford',
-      model: 'F - 350',
-      usageType: 'Miles',
-      edit: 'Daniel',
-    },
-    {
-      id: 3,
-      type: 'Vehicle',
-      make: 'Ford',
-      model: 'F - 350',
-      usageType: 'Miles',
-      edit: 'Daniel',
-    },
-    {
-      id: 4,
-      type: 'Vehicle',
-      make: 'Ford',
-      model: 'F - 350',
-      usageType: 'Miles',
-      edit: 'Daniel',
-    },
-    {
-      id: 5,
-      type: 'Vehicle',
-      make: 'Ford',
-      model: 'F - 350',
-      usageType: 'Miles',
-      edit: 'Daniel',
-    },
-    {
-      id: 6,
-      type: 'Vehicle',
-      make: 'Ford',
-      model: 'F - 350',
-      usageType: 'Miles',
-      edit: 'Daniel',
-    },
-  ];
   return (
     <View>
       <View style={Styles.equip}>
