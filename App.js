@@ -1,6 +1,7 @@
 import React from 'react';
-
 import Increment from './src/screen/increment';
+import {Provider} from 'react-redux';
+import {store} from './src/redux/store';
 
 function App() {
   return (
@@ -8,7 +9,9 @@ function App() {
     //   <Header></Header>
     //   <Section></Section>
     // </SafeAreaView>
-    <Increment></Increment>
+    <Provider store={store}>
+      <Increment></Increment>
+    </Provider>
   );
 }
 

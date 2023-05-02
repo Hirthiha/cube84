@@ -1,14 +1,18 @@
-import {useState} from 'react';
 import {Text, TouchableOpacity, View} from 'react-native';
-import instyle from '../../styles/increstyle';
+import instyle from '../styles/increstyle';
+import {useSelector, useDispatch} from 'react-redux';
+import {decrement, increment} from '../../redux/action';
 
 function Increment() {
-  const [count, setCount] = useState(0);
-  const increment = () => {
-    setCount(count + 1);
+  const count = useSelector(state => state.count);
+  const dispatch = useDispatch();
+
+  const incre = () => {
+    dispatch(increment());
   };
-  const decrement = () => {
-    setCount(count > 0 ? count - 1 : 0);
+
+  const decre = () => {
+    dispatch(decrement());
   };
   return (
     <View style={instyle.count}>
@@ -18,11 +22,12 @@ function Increment() {
 
       <View style={instyle.display}>
         {/* //decrement */}
-        <TouchableOpacity style={instyle.increment} onPress={decrement}>
+        <TouchableOpacity style={instyle.increment} onPress={decre}>
           <Text style={instyle.incre}>-</Text>
         </TouchableOpacity>
+
         {/* increment */}
-        <TouchableOpacity style={instyle.increment} onPress={increment}>
+        <TouchableOpacity style={instyle.increment} onPress={incre}>
           <Text style={instyle.incre}>+</Text>
         </TouchableOpacity>
       </View>

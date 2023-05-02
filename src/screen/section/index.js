@@ -1,8 +1,8 @@
 import {View, Text, TextInput, FlatList, TouchableOpacity} from 'react-native';
-import Styles from '../../styles/styles';
+import Styles from '../styles/styles';
 import Icon from 'react-native-vector-icons/Ionicons';
 import Icons from 'react-native-vector-icons/MaterialCommunityIcons';
-import data from './staticData';
+import data from '../../staticData';
 
 function Section() {
   return (
