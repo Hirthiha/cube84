@@ -5,6 +5,7 @@ import {decrement, increment} from '../../redux/action';
 
 function Increment() {
   const count = useSelector(state => state.count);
+  console.log(count, 'local');
   const dispatch = useDispatch();
 
   const incre = () => {
