@@ -13,6 +13,8 @@ const color = {
   lightgreen: '#59e3c0',
   blue: '#500eeb',
   navyblue: '#0eb7eb',
+  darkGrey: '#494d4a',
+  yellow: '#fccd30',
 };
 
 export default color;
