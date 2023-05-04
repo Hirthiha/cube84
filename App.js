@@ -1,17 +1,20 @@
 import React from 'react';
-import Increment from './src/screen/increment';
-import {Provider} from 'react-redux';
-import {store} from './src/redux/store';
+import AsyncIncrement from './src/screen/asyncIncrement';
 
 function App() {
   return (
+    //UI
     // <SafeAreaView style={Styles.container}>
     //   <Header></Header>
     //   <Section></Section>
     // </SafeAreaView>
-    <Provider store={store}>
-      <Increment></Increment>
-    </Provider>
+
+    //redux
+    // <Provider store={store}>
+    //   <Increment></Increment>
+    // </Provider>
+
+    <AsyncIncrement></AsyncIncrement>
   );
 }
 
