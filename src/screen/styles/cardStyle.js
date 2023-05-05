@@ -59,7 +59,7 @@ const cardStyle = StyleSheet.create({
     width: '45%',
     height: 230,
     marginTop: '5%',
-    marginLeft: '3%',
+    marginLeft: '4%',
     // borderColor: color.Black,
     // borderWidth: 2,
   },
@@ -106,6 +106,11 @@ const cardStyle = StyleSheet.create({
   },
   safeview: {
     height: 620,
+  },
+  heart: {
+    fontSize: 23,
+    color: color.Black,
+    position: 'absolute',
   },
 });
 

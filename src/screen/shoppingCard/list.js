@@ -27,6 +27,7 @@ function List() {
                 <Text style={cardStyle.buttontext}>Buy Now</Text>
               </TouchableOpacity>
             </View>
+            <Icon name="ios-heart-outline" style={cardStyle.heart} />
           </View>
         )}
         numColumns={2}

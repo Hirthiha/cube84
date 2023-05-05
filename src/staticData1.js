@@ -61,6 +61,18 @@ const list = [
     name: 'Halwa',
     price: '₹100 per kg',
   },
+  {
+    id: 11,
+    img: image.ladoo,
+    name: 'Ladoo',
+    price: '₹180 per kg',
+  },
+  {
+    id: 12,
+    img: image.rose,
+    name: 'Rose Milk',
+    price: '₹180 per kg',
+  },
 ];
 
 export default list;

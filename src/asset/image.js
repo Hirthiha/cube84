@@ -11,6 +11,8 @@ const image = {
   rasagulla: require('../asset/rasagulla.png'),
   kaju: require('../asset/kaju.png'),
   halwa: require('../asset/halwa.png'),
+  ladoo: require('../asset/ladoo.png'),
+  rose: require('../asset/rosemilk.png'),
 };
 
 export default image;
